@@ -13,3 +13,4 @@
 
 select *
 from gross_rent
+order by "id"

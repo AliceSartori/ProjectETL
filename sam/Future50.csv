@@ -1,0 +1,51 @@
+﻿Rank,Restaurant,Location,State,Sales,YOY_Sales,Units,YOY_Units,Unit_Volume,Franchising
+1,Evergreens,Seattle,Washington,24,130.50%,26,116.70%,1150,No
+2,Clean Juice,Charlotte,North Carolina,44,121.90%,105,94.40%,560,Yes
+3,Slapfish,Huntington Beach,California,21,81.00%,21,90.90%,1370,Yes
+4,Clean Eatz,Wilmington,North Carolina,25,79.70%,46,58.60%,685,Yes
+5,Pokeworks,Irvine,California,49,77.10%,50,56.30%,1210,Yes
+6,Playa Bowls,Belmar,New Jersey,39,62.90%,76,28.80%,580,Yes
+7,The Simple Greek,Blue Bell,Pennsylvania,24,52.50%,36,33.30%,775,Yes
+8,Melt Shop,New York,New York,20,39.60%,19,35.70%,1260,Yes
+9,Creamistry,Yorba Linda,California,24,36.80%,60,27.70%,465,Yes
+10,Joella's Hot Chicken,Louisville,Kentucky,29,35.50%,17,30.80%,1930,No
+11,Eggs Up Grill,Spartanburg,South Carolina,30,35.40%,41,36.70%,860,Yes
+12,Dog Haus,Pasadena,California,39,34.50%,50,42.90%,1200,Yes
+13,Teriyaki Madness,Denver,Colorado,41,34.10%,63,65.80%,890,Yes
+14,Bluestone Lane,New York,New York,48,33.00%,48,37.10%,1175,No
+15,Original ChopShop,Plano, Texas,21,32.50%,12,20.00%,1930,No
+16,Rapid Fired Pizza,Kettering, Ohio,24,32.20%,35,29.60%,780,Yes
+17,Ike's Love & Sandwiches,San Francisco,California,44,30.80%,71,29.10%,700,Yes
+18,Vitality Bowls,San Ramon,California,37,30.10%,77,24.20%,535,Yes
+19,Hawkers Asian Street Fare,Orlando,Florida,22,30.00%,7,40.00%,3800,No
+20,Maple Street Biscuit Co.,Orange Park,Florida,39,28.90%,33,10.00%,1260,Yes
+21,Bulla Gastrobar,Doral,Florida,32,28.20%,8,14.30%,4300,No
+22,Duck Donuts,Mechanicsburg,Pennsylvania,44,28.00%,90,16.90%,530,Yes
+23,The Little Beet,New York,New York,23,26.50%,12,33.30%,2230,No
+24,Joe & The Juice,New York,New York,47,25.90%,69,25.50%,760,Yes
+25,By Chloe,New York,New York,37,25.60%,14,7.70%,2800,No
+26,Sugarfire Smokehouse,Olivette,Montana,39,25.40%,15,15.40%,2820,No
+27,Bibibop Asian Grill,Columbus, Ohio,44,24.60%,37,23.30%,1330,No
+28,Bubbakoo's Burritos,Wall Township,New Jersey,28,24.30%,31,14.80%,970,Yes
+29,Dos Toros Taqueria,New York,New York,28,24.00%,22,10.00%,1375,No
+30,The Pizza Press,Anaheim,California,27,23.70%,27,22.70%,1130,Yes
+31,The Lost Cajun,Frisco, Texas,20,23.00%,26,4.00%,785,Yes
+32,Just Salad,New York,New York,42,22.70%,38,26.70%,1240,No
+33,Jeni's Splendid Ice Creams,Columbus, Ohio,42,22.40%,44,22.20%,1050,No
+34,Boqueria,New York,New York,27,22.00%,7,16.70%,4260,No
+35,Quickway Japanese Hibachi,Fairfax,Virginia,22,21.40%,25,19.00%,985,Yes
+36,Surcheros,Douglas,Georgia,22,21.30%,20,17.60%,1230,Yes
+37,Famous Toastery,Charlotte,North Carolina,40,21.20%,27,8.00%,1540,Yes
+38,Culinary Dropout,Scottsdale,Arizon,20,20.80%,7,16.70%,3120,No
+39,Condado Tacos,Columbus, Ohio,38,19.90%,15,15.40%,2755,No
+40,The Flying Biscuit Cafe,Atlanta,Georgia,29,19.50%,21,16.70%,1510,Yes
+41,Blue Sushi Sake Grill,Omaha,Nebraska,49,19.50%,14,16.70%,3500,No
+42,The Human Bean,Medford,Oregon,47,19.00%,97,19.80%,535,Yes
+43,Spitz Mediterranean Street Food,Los Angeles,California,28,18.80%,11,10.00%,2700,No
+44,Tacos 4 Life,Conway,Arkansas,25,18.40%,16,6.70%,1620,Yes
+45,Pita Mediterranean Street Food,Fairburn,Georgia,38,17.80%,32,10.30%,1260,Yes
+46,LA Crawfish,McAllen, Texas,48,17.60%,25,13.60%,2050,Yes
+47,&pizza,Washington,Washington,45,17.10%,35,9.40%,1350,No
+48,Super Duper Burgers,San Francisco,California,39,16.90%,16,14.30%,2630,No
+49,StoneFire Grill,Agoura Hills,California,31,16.00%,13,8.30%,2550,No
+50,Gus's World Famous Fried Chicken,Memphis,Tennessee,44,14.40%,28,7.70%,1600,Yes

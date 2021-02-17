@@ -39,13 +39,13 @@ CREATE TABLE "household_table" (
      )
 );
 
-CREATE TABLE "gross_rent_table" (
+CREATE TABLE "gross_rent" (
     "gross_rent_id" INTEGER   NOT NULL,
     "median_gross_rent" INTEGER   NOT NULL,
     "std_gross_rent" INTEGER   NOT NULL,
     "mean_gross_rent" INTEGER   NOT NULL,
     "zip_code_id" INTEGER   NOT NULL,
-    CONSTRAINT "pk_gross_rent_table" PRIMARY KEY (
+    CONSTRAINT "pk_gross_rent" PRIMARY KEY (
         "gross_rent_id"
      )
 );
@@ -59,5 +59,5 @@ REFERENCES "zip_code" ("zip_code_id");
 ALTER TABLE "household_table" ADD CONSTRAINT "fk_household_table_zip_code_id" FOREIGN KEY("zip_code_id")
 REFERENCES "zip_code" ("zip_code_id");
 
-ALTER TABLE "gross_rent_table" ADD CONSTRAINT "fk_gross_rent_table_zip_code_id" FOREIGN KEY("zip_code_id")
+ALTER TABLE "gross_rent" ADD CONSTRAINT "fk_gross_rent_zip_code_id" FOREIGN KEY("zip_code_id")
 REFERENCES "zip_code" ("zip_code_id");

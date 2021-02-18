@@ -45,16 +45,19 @@ We wanted to explore how the ranking of the restaurants was related to gross ren
 ## Summary of Findings
 ----------
 Unicode utf-8 Error
-1. The first issue encountered was met when trying to read the data into the Jupiter notebook using pandas:
+The first issue encountered was met when trying to read the data into the Jupiter notebook using pandas:
 UnicodeDecodeError: ‘utf-8’ codec can’t decode byte 0xf1 in position ...: invalid continuation byte
 SOLUTION: Searched on Google and found this article(https://theptrk.com/2019/10/20/unicodedecodeerror-utf-8-codec-cant-decode-byte-0xf1-in-position-4-invalid-continuation-byte/). Opened the file in Atom and saved it adding pd.read_csv("gross_rent.csv", encoding='utf-8') to the string on Jupyter.
+
 Pandas vs PGAdmin
-2. When creating the table schema in PGAdmin using Pandas Columns' names, PGAdmin created columns not respecting Camel Casing. It always lower cases all column names by default. This created an issue when uploading data using pandas.to_sql function.
+When creating the table schema in PGAdmin using Pandas Columns' names, PGAdmin created columns not respecting Camel Casing. It always lower cases all column names by default. This created an issue when uploading data using pandas.to_sql function.
 SOLUTION: After some empirical observations, we lowercased all columns in pandas when renaming.
+
 Conceptual Error
-3. After creating a schema with tables respecting the 3 NFs, we realized that the dataframes initially created were not updated with the columns we added to connect the tables in ERD. We had to work backwards by re-subsetting the dataframe we created at the beginning and adding the columns we needed to correspond to our ERD. The Zip Code table ended up being our junction table.
+After creating a schema with tables respecting the 3 NFs, we realized that the dataframes initially created were not updated with the columns we added to connect the tables in ERD. We had to work backwards by re-subsetting the dataframe we created at the beginning and adding the columns we needed to correspond to our ERD. The Zip Code table ended up being our junction table.
+
 Errors after running pd.to_sql
-4. IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "gross_rent_pkey"
+IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "gross_rent_pkey"
 DETAIL:  Key (id)=(1021) already exists.
 When running jupyter notebook pd.to_sql after the first insertion of the data, Jupyter always errors out as the data has already been entered. 
 SOLUTION: Even if it means having that column erroring out, that is proof the data have been entered.

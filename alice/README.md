@@ -21,8 +21,7 @@ Are you a gourment consumer? Or are you thinking on savy information to open you
 
 ## Extract
 ----------  
-Our data came from two main sources.
-CSV files:
+Our data came from two main sources (CSVs files):
 1. [Restaurant Dataset](https://https://www.kaggle.com/michau96/restaurant-business-rankings-2020?select=Future50.csv): set of 3 separate csv files of Restaurant Score with 2020 rating 
 2. [Gross Rent and Houshold income dataset](https://https://www.kaggle.com/michau96/restaurant-business-rankings-2020?select=Future50.csv):  1 csv file with 2020 data related of US real estate and household data
 

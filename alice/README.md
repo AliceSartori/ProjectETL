@@ -46,7 +46,7 @@ We wanted to explore how the ranking of the restaurants was related to gross ren
 Unicode utf-8 Error:
 The first issue encountered was met when trying to read the data into the Jupiter notebook using pandas:
 UnicodeDecodeError: ‘utf-8’ codec can’t decode byte 0xf1 in position ...: invalid continuation byte
-SOLUTION: Searched on Google and found this article(https://theptrk.com/2019/10/20/unicodedecodeerror-utf-8-codec-cant-decode-byte-0xf1-in-position-4-invalid-continuation-byte/). Opened the file in Atom and saved it adding pd.read_csv("gross_rent.csv", encoding='utf-8') to the string on Jupyter.
+SOLUTION: Searched on Google and found this article [Unicode error](https://theptrk.com/2019/10/20/unicodedecodeerror-utf-8-codec-cant-decode-byte-0xf1-in-position-4-invalid-continuation-byte/). Opened the file in Atom and saved it adding pd.read_csv("gross_rent.csv", encoding='utf-8') to the string on Jupyter.
 
 Pandas vs PGAdmin:
 When creating the table schema in PGAdmin using Pandas Columns' names, PGAdmin created columns not respecting Camel Casing. It always lower cases all column names by default. This created an issue when uploading data using pandas.to_sql function.

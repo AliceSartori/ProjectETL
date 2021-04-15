@@ -25,7 +25,7 @@ Our data came from two main sources (CSVs files):
 1. [Restaurant Dataset](https://https://www.kaggle.com/michau96/restaurant-business-rankings-2020?select=Future50.csv): set of 3 separate csv files of Restaurant Score with 2020 rating 
 2. [Gross Rent and Houshold income dataset](https://https://www.kaggle.com/michau96/restaurant-business-rankings-2020?select=Future50.csv):  1 csv file with 2020 data related of US real estate and household data
 
-## Trasform
+## Transform
 ----------
 We imported our data sets into Jupyter Notebook to manipulate and transform our datasets. We had to reformate and clean our CSV files so that they were readable, and the columns were consistent to each other. We did this by renaming columns and comparing state, state abbreviation and city names to ensure all data was callable in our Postgres queries. We also checked for null and duplicate values.
 

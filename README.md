@@ -30,11 +30,10 @@ Our data came from two main sources (CSVs files):
 We imported our data sets into Jupyter Notebook to manipulate and transform our datasets. We had to reformate and clean our CSV files so that they were readable, and the columns were consistent to each other. We did this by renaming columns and comparing state, state abbreviation and city names to ensure all data was callable in our Postgres queries. We also checked for null and duplicate values.
 
 
-
-## Load to Postgres
+## Load to PostgreSQL
 ----------
 To organize our data sets we use an Entity Relationship Diagram (ERD) tool from the Quick Database Diagrams website. We created tables respecting the 3 NFs linking them together on their primary and foreign keys. We then exported the schema into Postgres to create our tables.
-To export the data to Postgres we use the following code including df.to_sql( ) for all notebook dataframes. Also, we used if_exists=”append” to add to the existing database without overriding the schema.
+To export the data to PostgreSQL we use the following code including df.to_sql( ) for all notebook dataframes. Also, we used if_exists=”append” to add to the existing database without overriding the schema.
 When creating our schema, we assigned data types to all the columns based on their values.
 
 ## Queries

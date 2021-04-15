@@ -60,3 +60,5 @@ IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates u
 DETAIL:  Key (id)=(1021) already exists.
 When running jupyter notebook pd.to_sql after the first insertion of the data, Jupyter always errors out as the data has already been entered. 
 SOLUTION: Even if it means having that column erroring out, that is proof the data have been entered.
+
+[Restaurant Dataset](https://github.com/AliceSartori/ProjectETL/blob/main/alice/QuickDBD-ETL%20Project.png)

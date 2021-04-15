@@ -38,7 +38,7 @@ When creating our schema, we assigned data types to all the columns based on the
 
 ## Queries
 ----------
-We wanted to explore how the ranking of the restaurants was related to gross rent in cities and states, as well as how it was related to household income. Is the ranking influenced by higher income cities? Is there a a relationship between restaurant and gross rent?
+We wanted to explore how the ranking of the restaurants was related to gross rent in cities and states, as well as how it was related to household income. Is the ranking influenced by higher income cities? Is there a a relationship between restaurant and gross rent? Due to time constraints, we were not able to load the Restaurant table and make queries. 
 
 ## Summary of Findings
 ----------
